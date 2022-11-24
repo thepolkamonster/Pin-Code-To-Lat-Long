@@ -1,5 +1,7 @@
 ## Pin-Code-To-Lat-Long
 
+Make sure to set the file name as Pin-codes.csv
+
 This is a simple program to convert the given pin code to its latitude and longitude,
 I ran into this problem when i was doing a project so i decided to share this solution
 
