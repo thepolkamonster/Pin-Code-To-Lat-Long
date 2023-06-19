@@ -15,8 +15,12 @@ def pcode(address):
     location = geolocator.geocode(address)
     
     #print(location.address)
-    a=location.latitude
-    b=location.longitude
+    if location == None:
+        a = None
+        b = None
+    else:
+        a=location.latitude
+        b=location.longitude
     return (a,b)
     
 df['lat']=np.nan
